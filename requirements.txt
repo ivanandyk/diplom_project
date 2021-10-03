@@ -1,5 +1,4 @@
 pytest==4.0.0
 selenium
 psycopg2-binary
-allure-pytest
 requests
