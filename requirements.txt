@@ -1,0 +1,5 @@
+pytest
+selenium
+psycopg2-binary
+allure-pytest
+requests
