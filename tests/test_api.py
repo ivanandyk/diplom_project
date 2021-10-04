@@ -1,4 +1,4 @@
-from petstore_api import TestSteps
+from steps.petstore_api import TestSteps
 
 
 params = {
