@@ -1,4 +1,4 @@
-pytest
-selenium
-psycopg2-binary
+pytest==4.0.0
+selenium==3.141.0
+psycopg2-binary==2.9.1
 requests==2.26.0
