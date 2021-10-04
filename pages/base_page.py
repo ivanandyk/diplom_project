@@ -1,5 +1,5 @@
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 
 
 class BasePage:
@@ -13,5 +13,5 @@ class BasePage:
 
     def find_element(self, locator: tuple, time=5):
         return WebDriverWait(self.driver, time).until(
-            EC.presence_of_element_located(locator),
+            ec.presence_of_element_located(locator),
             message=f'Can not find element {locator}')
